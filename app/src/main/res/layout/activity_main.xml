@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDownload"
+        android:text="Download"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shape_default"
+        app:spinning_bar_color="#FFFFFF"
+        app:spinning_bar_padding="6dp"
+        app:spinning_bar_width="4dp"></br.com.simplepass.loading_button_lib.customViews.CircularProgressButton>
+
+</RelativeLayout>
